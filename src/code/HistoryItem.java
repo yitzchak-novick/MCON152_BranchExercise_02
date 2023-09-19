@@ -11,4 +11,9 @@ public class HistoryItem {
 	public int getAmount() {
 		return amount;
 	}
+	
+	@Override
+	public String toString() {
+		return "History item, amt: " + amount;
+	}
 }
