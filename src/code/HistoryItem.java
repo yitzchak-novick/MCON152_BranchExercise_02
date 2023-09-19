@@ -7,6 +7,7 @@ public class HistoryItem {
 		this.amount = amount;
 	}
 	
+	
 	public int getAmount() {
 		return amount;
 	}
