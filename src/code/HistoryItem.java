@@ -1,10 +1,18 @@
 package code;
 
+import java.util.Date;
+
+
+
 public class HistoryItem {
 	private int amount;
+	private Date date;
+	private String description;
 	
-	public HistoryItem(int amount) {
+	public HistoryItem(int amount, Date date, String description) {
 		this.amount = amount;
+		this.date = date;
+		this.description = description;
 	}
 	
 	
